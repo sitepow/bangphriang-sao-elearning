@@ -48,3 +48,35 @@ The application provides a robust learning management environment where students
 | **Charts & Visualization** | Chart.js, ApexCharts, React ApexCharts | Interactive statistics, progress tracking, and administrative data analysis |
 | **Document & Media** | `@react-pdf/renderer`, `jspdf`, `next-video` | PDF certificate generation, export utilities, and optimized video streaming |
 | **Backend & Security** | Node.js, Express (Server), JWT, Multer, Next-Connect | RESTful API routing, file upload middleware, and secure authentication |
+
+---
+
+## 🗂️ Project Architecture
+
+The repository follows a clean client-server architecture, separating the Next.js frontend application from the Node.js backend services:
+
+```text
+bangphriang-sao-elearning/
+├── client/                  # Next.js Frontend Application
+│   ├── components/          # Reusable UI components
+│   ├── helpers/             # Client-side helper functions & utilities
+│   ├── pages/               # Application pages and routing
+│   ├── public/images/       # Static assets and media files
+│   ├── store/               # Redux Toolkit global state management
+│   ├── styles/              # Global stylesheets and Tailwind configuration
+│   ├── .eslintrc.json       # ESLint code linting rules
+│   ├── .gitignore           # Git ignore rules for the frontend
+│   ├── next.config.mjs      # Next.js configuration settings
+│   ├── package.json         # Frontend dependencies and scripts
+│   └── robots.txt           # Search engine crawler directives
+│
+└── server/                  # Node.js & Express Backend API
+    ├── controllers/         # Business logic and request controllers
+    ├── helpers/             # Backend helper and utility functions
+    ├── middlewares/         # Custom Express middlewares (e.g., authentication)
+    ├── models/              # Database models and schema definitions
+    ├── routers/             # RESTful API endpoint route definitions
+    ├── uploads/             # Directory for user-uploaded files and media
+    ├── db.js                # Database connection configuration
+    ├── env.txt              # Environment variables template file
+    └── package.json         # Backend dependencies and scripts
