@@ -48,9 +48,3 @@ The application provides a robust learning management environment where students
 | **Charts & Visualization** | Chart.js, ApexCharts, React ApexCharts | Interactive statistics, progress tracking, and administrative data analysis |
 | **Document & Media** | `@react-pdf/renderer`, `jspdf`, `next-video` | PDF certificate generation, export utilities, and optimized video streaming |
 | **Backend & Security** | Node.js, Express (Server), JWT, Multer, Next-Connect | RESTful API routing, file upload middleware, and secure authentication |
-
----
-
-## 🗂️ Project Structure
-
-```text
