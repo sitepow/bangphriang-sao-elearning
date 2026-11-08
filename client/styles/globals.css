@@ -1,0 +1,81 @@
+.ps-sidebar-container {
+  background-color: transparent !important;
+  @apply min-h-screen  !important;
+}
+
+.ps-menu-button:hover {
+  background-color: transparent !important;
+}
+
+.css-1wvake5 {
+  @apply border-r w-72 dark:border-r dark:border-dark shadow-none !important;
+}
+
+.ps-submenu-content {
+  background-color: transparent !important;
+}
+
+img {
+  @apply rounded-large;
+}
+
+:root {
+  --main-color: #00712d;
+  --navi-color: #000000;
+}
+
+.text-gradient-light {
+  background-image: linear-gradient(to right, currentColor, var(--main-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.border-main {
+  border-color: var(--main-color);
+}
+
+.text-main {
+  color: var(--main-color);
+}
+
+.bg-main {
+  background-color: var(--main-color);
+}
+
+.jodit .jodit_toolbar {
+  z-index: 1000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.4);
+  border-radius: 6px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 100, 100, 0.6);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(100, 100, 100, 0.8);
+}
+
+/* th {
+  background-color: var(--main-color) !important;
+  color: white !important;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
