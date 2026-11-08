@@ -49,8 +49,6 @@ The application provides a robust learning management environment where students
 | **Document & Media** | `@react-pdf/renderer`, `jspdf`, `next-video` | PDF certificate generation, export utilities, and optimized video streaming |
 | **Backend & Security** | Node.js, Express (Server), JWT, Multer, Next-Connect | RESTful API routing, file upload middleware, and secure authentication |
 
----
-
 ## 🗂️ Project Architecture
 
 The repository follows a clean client-server architecture, separating the Next.js frontend application from the Node.js backend services:
